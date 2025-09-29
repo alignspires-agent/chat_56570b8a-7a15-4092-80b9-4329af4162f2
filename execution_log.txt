@@ -1,0 +1,128 @@
+Lambda Execution Result (Latest Run):
+INIT_REPORT Init Duration: 9929.11 ms	Phase: init	Status: timeout
+
+=== Experiment Errors ===
+
+2025-09-29 07:22:23,691 - INFO - Lévy-Prokhorov Robust Conformal Prediction for Time Series with Distribution Shifts
+
+2025-09-29 07:22:23,691 - INFO - Based on: Conformal Prediction under Lévy-Prokhorov Distribution Shifts
+
+2025-09-29 07:22:23,691 - INFO - Starting Lévy-Prokhorov Robust Conformal Prediction Experiment
+
+2025-09-29 07:22:23,691 - INFO - Generating synthetic time series data: 1000 samples, 10 features, 3 classes
+
+2025-09-29 07:22:23,698 - INFO - Applied distribution shift at index 500
+
+2025-09-29 07:22:23,698 - INFO - Data generation completed. Label distribution: [354 337 309]
+
+2025-09-29 07:22:23,698 - INFO - Data split: 500 calibration, 500 test
+
+2025-09-29 07:22:23,698 - INFO - 
+
+--- Testing ε=0.0, ρ=0.0 ---
+
+2025-09-29 07:22:23,698 - INFO - Initialized LP Robust Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.0
+
+2025-09-29 07:22:23,699 - INFO - Starting calibration process...
+
+2025-09-29 07:22:23,703 - INFO - Calibration completed: 500 samples
+
+2025-09-29 07:22:23,703 - INFO - Standard quantile: 0.4502
+
+2025-09-29 07:22:23,703 - INFO - Robust quantile: 0.4481
+
+2025-09-29 07:22:23,703 - INFO - Robustness parameters: ε=0.0, ρ=0.0
+
+2025-09-29 07:22:23,703 - INFO - Generating prediction sets...
+
+2025-09-29 07:22:23,704 - ERROR - Experiment failed with error: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+
+{
+
+"experimentStatusCode": 500,
+
+"body": {
+
+"message": "Experiment failed",
+
+"returncode": 1,
+
+"stdout": "",
+
+"stderr": "2025-09-29 07:22:23,691 - INFO - L\u00e9vy-Prokhorov Robust Conformal Prediction for Time Series with Distribution Shifts\n2025-09-29 07:22:23,691 - INFO - Based on: Conformal Prediction under L\u00e9vy-Prokhorov Distribution Shifts\n2025-09-29 07:22:23,691 - INFO - Starting L\u00e9vy-Prokhorov Robust Conformal Prediction Experiment\n2025-09-29 07:22:23,691 - INFO - Generating synthetic time series data: 1000 samples, 10 features, 3 classes\n2025-09-29 07:22:23,698 - INFO - Applied distribution shift at index 500\n2025-09-29 07:22:23,698 - INFO - Data generation completed. Label distribution: [354 337 309]\n2025-09-29 07:22:23,698 - INFO - Data split: 500 calibration, 500 test\n2025-09-29 07:22:23,698 - INFO - \n--- Testing \u03b5=0.0, \u03c1=0.0 ---\n2025-09-29 07:22:23,698 - INFO - Initialized LP Robust Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.0\n2025-09-29 07:22:23,699 - INFO - Starting calibration process...\n2025-09-29 07:22:23,703 - INFO - Calibration completed: 500 samples\n2025-09-29 07:22:23,703 - INFO - Standard quantile: 0.4502\n2025-09-29 07:22:23,703 - INFO - Robust quantile: 0.4481\n2025-09-29 07:22:23,703 - INFO - Robustness parameters: \u03b5=0.0, \u03c1=0.0\n2025-09-29 07:22:23,703 - INFO - Generating prediction sets...\n2025-09-29 07:22:23,704 - ERROR - Experiment failed with error: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 2984.77 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: 18985eab-51b5-4d56-be3f-e6209417b53f Version: $LATEST
+
+RequestId: 18985eab-51b5-4d56-be3f-e6209417b53f Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: 18985eab-51b5-4d56-be3f-e6209417b53f
+
+REPORT RequestId: 18985eab-51b5-4d56-be3f-e6209417b53f	Duration: 2986.15 ms	Billed Duration: 2987 ms	Memory Size: 3008 MB	Max Memory Used: 104 MB	
+
+=== Experiment Errors ===
+
+2025-09-29 07:22:24,918 - INFO - Lévy-Prokhorov Robust Conformal Prediction for Time Series with Distribution Shifts
+
+2025-09-29 07:22:24,918 - INFO - Based on: Conformal Prediction under Lévy-Prokhorov Distribution Shifts
+
+2025-09-29 07:22:24,918 - INFO - Starting Lévy-Prokhorov Robust Conformal Prediction Experiment
+
+2025-09-29 07:22:24,918 - INFO - Generating synthetic time series data: 1000 samples, 10 features, 3 classes
+
+2025-09-29 07:22:24,919 - INFO - Applied distribution shift at index 500
+
+2025-09-29 07:22:24,919 - INFO - Data generation completed. Label distribution: [354 337 309]
+
+2025-09-29 07:22:24,919 - INFO - Data split: 500 calibration, 500 test
+
+2025-09-29 07:22:24,919 - INFO - 
+
+--- Testing ε=0.0, ρ=0.0 ---
+
+2025-09-29 07:22:24,919 - INFO - Initialized LP Robust Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.0
+
+2025-09-29 07:22:24,919 - INFO - Starting calibration process...
+
+2025-09-29 07:22:24,920 - INFO - Calibration completed: 500 samples
+
+2025-09-29 07:22:24,920 - INFO - Standard quantile: 0.4502
+
+2025-09-29 07:22:24,920 - INFO - Robust quantile: 0.4481
+
+2025-09-29 07:22:24,920 - INFO - Robustness parameters: ε=0.0, ρ=0.0
+
+2025-09-29 07:22:24,920 - INFO - Generating prediction sets...
+
+2025-09-29 07:22:24,920 - ERROR - Experiment failed with error: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+
+{
+
+"experimentStatusCode": 500,
+
+"body": {
+
+"message": "Experiment failed",
+
+"returncode": 1,
+
+"stdout": "",
+
+"stderr": "2025-09-29 07:22:24,918 - INFO - L\u00e9vy-Prokhorov Robust Conformal Prediction for Time Series with Distribution Shifts\n2025-09-29 07:22:24,918 - INFO - Based on: Conformal Prediction under L\u00e9vy-Prokhorov Distribution Shifts\n2025-09-29 07:22:24,918 - INFO - Starting L\u00e9vy-Prokhorov Robust Conformal Prediction Experiment\n2025-09-29 07:22:24,918 - INFO - Generating synthetic time series data: 1000 samples, 10 features, 3 classes\n2025-09-29 07:22:24,919 - INFO - Applied distribution shift at index 500\n2025-09-29 07:22:24,919 - INFO - Data generation completed. Label distribution: [354 337 309]\n2025-09-29 07:22:24,919 - INFO - Data split: 500 calibration, 500 test\n2025-09-29 07:22:24,919 - INFO - \n--- Testing \u03b5=0.0, \u03c1=0.0 ---\n2025-09-29 07:22:24,919 - INFO - Initialized LP Robust Conformal Prediction with alpha=0.1, epsilon=0.0, rho=0.0\n2025-09-29 07:22:24,919 - INFO - Starting calibration process...\n2025-09-29 07:22:24,920 - INFO - Calibration completed: 500 samples\n2025-09-29 07:22:24,920 - INFO - Standard quantile: 0.4502\n2025-09-29 07:22:24,920 - INFO - Robust quantile: 0.4481\n2025-09-29 07:22:24,920 - INFO - Robustness parameters: \u03b5=0.0, \u03c1=0.0\n2025-09-29 07:22:24,920 - INFO - Generating prediction sets...\n2025-09-29 07:22:24,920 - ERROR - Experiment failed with error: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 1187.19 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
